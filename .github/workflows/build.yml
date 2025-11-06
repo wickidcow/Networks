@@ -1,4 +1,5 @@
-name: Build Paper 1.21.10
+- name: Build with Gradle
+  run: gradle clean build --stacktrace
 
 on:
   push:
